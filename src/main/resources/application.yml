@@ -1,0 +1,7 @@
+currency:
+  api:
+    provider: exchangerate-api
+    base-url:  https://v6.exchangerate-api.com
+    key: ${CURRENCY_API_KEY}
+    connect-timeout: 2s
+    read-timeout: 3s
