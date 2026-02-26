@@ -5,3 +5,6 @@ currency:
     key: ${CURRENCY_API_KEY}
     connect-timeout: 2s
     read-timeout: 3s
+
+server:
+  port: ${PORT:5000}

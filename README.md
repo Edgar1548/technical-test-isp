@@ -6,6 +6,14 @@ API REST desarrollada en Java 21 + Spring Boot 3.5 para conversión de unidades 
 
 ---
 
+## Live API
+
+Hice deploy del API con herramientas AWS, especificamente ElasticBeansTalk y CloudFront (para tener HTTPS temporal). Se puede probar la API usando el siguiente URL como base: 
+
+https://d2vup220m1rc4k.cloudfront.net
+
+---
+
 ## Características
 
 La API permite convertir entre:
@@ -15,7 +23,7 @@ La API permite convertir entre:
 3. Temperatura (Celsius, Fahrenheit)
 4. Moneda (USD, PEN, EUR, etc.) usando API externa ExchangeRate-API
 
-Los datos pueden enviarse tanto en el body (JSON) como mediante query parameters.
+Los datos pueden enviarse tanto en el body (JSON) como mediante query parameters. Además todos los errores se devuelven en ingles para evitar lo mas posible "spanglish"
 
 ---
 
