@@ -7,4 +7,4 @@ currency:
     read-timeout: 3s
 
 server:
-  port: ${PORT:5000}
+  port: ${PORT:8080}
