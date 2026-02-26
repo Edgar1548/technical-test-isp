@@ -175,7 +175,7 @@ http://localhost:8080
 
 ## DevContainer
 
-El proyecto incluye `.devcontainer`, por lo que es compatible con devContainers y se puede abrir directamente en VS Code, Cursor o editor similares que contenga un plugin de DevContainers.
+El proyecto incluye `.devcontainer`, por lo que es compatible con devContainers y se puede abrir directamente en VS Code, Cursor o en editores similares que tengan algun plugin de DevContainers.
 
 ---
 
